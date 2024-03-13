@@ -1,0 +1,88 @@
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.img_fondo {
+    width: 100%;
+    height: 500px;
+    opacity: 0.5;
+}
+
+header {
+ background-color: #FF5722;
+ width: 100%;
+ height: 50px;
+ z-index: 1;
+}
+
+footer {
+ background-color: black;
+ color: #fff;
+ padding: 10px;
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+ height: 20px;
+ z-index: 1;
+}
+
+
+.texto_titulo {
+     font-family: 'Work Sans', sans-serif;
+     color: #212121;
+    }
+
+.menu {
+    background-color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-40%, -40%);
+    text-align: center;
+    width: 18%;
+    height: 420px;
+    border: 1px solid;
+    border-color: black;
+    flex-grow: 1;
+    z-index: 2;
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+
+.logo_ingreso {
+
+    width: 10%;
+    height: 10%;
+    float: right;
+    margin-right: 10px
+
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+input {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.detalle_pedido {
+    font-family: "Arial Narrow", sans-serif;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+
+}

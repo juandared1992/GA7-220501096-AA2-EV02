@@ -1,0 +1,90 @@
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.img_fondo {
+       width: 100%;
+       height: 500px;
+       opacity: 0.5;
+}
+
+header {
+    background-color: #FF5722;
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    z-index: 1;
+  }
+
+/* Menu ingreso */
+.menu1 {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -40%);
+    text-align: center;
+    width: 18%;
+    height: 300px;
+    border: 1px solid;
+    border-color: black;
+    flex-grow: 1;
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.texto_titulo {
+     font-family: 'Work Sans', sans-serif;
+     color: #212121;
+    }
+
+.texto2 {
+        font-family: 'Work Sans', sans-serif;
+        color: black;
+       }
+
+
+
+/* Menu ingreso */
+.logo_ingreso1 {
+    object-fit: cover; /* La imagen se ajusta manteniendo su relación de aspecto y sin distorsionarse */
+    object-position: center; /* Centra la imagen horizontal y verticalmente dentro del contenedor */
+    width: 20%;
+    height: 20%;
+    overflow: visible; /* permite que la imagen quede enfrente  */
+
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+.boton {
+    background-color: #795548 ;
+    color: #FFFFFF; /* Color texto */
+    padding: 10px 20px; /* tamaño del boton */
+    text-align: center; /* Centra el texto dentro del botón */
+    text-decoration: none; /* Elimina el subrayado del texto si el botón es un enlace */
+    display: inline-block; /* Hace que el botón se comporte como un elemento de bloque, permitiendo ajustar el ancho y el alto */
+}
+

@@ -1,0 +1,99 @@
+
+/* body */
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;  
+}
+/* fondo */
+.img_fondo {
+    width: 100%;
+    height: 500px;
+    opacity: 0.5;
+}
+/* header */
+header {
+ background-color: #FF5722;
+ width: 100%;
+ height: 50px;
+ z-index: 1;
+}
+/* footer */
+footer {
+ background-color: black;
+ color: #fff;
+ padding: 10px;
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+ height: 20px;
+ z-index: 1;
+}
+
+/* Titulo */
+.texto_titulo {
+     font-family: 'Work Sans', sans-serif;
+     color: #212121;
+    }
+
+
+/* menu */
+.menu {
+    background-color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-40%, -40%);
+    text-align: center;
+    width: 18%;
+    height: 450px;
+    border: 1px solid;
+    border-color: black;
+    flex-grow: 1;
+    z-index: 2;
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+/* label */
+label {
+    display: block;
+    margin-bottom: 5px; 
+    
+}
+/* imprimir */
+.imprimir {
+    background-color: white ;
+    color: black; /* Color texto */
+    padding: 10px 20px; /* tamaño del boton */
+    text-align: center; /* Centra el texto dentro del botón */
+    display: inline-block; /* Hace que el botón se comporte como un elemento de bloque, permitiendo ajustar el ancho y el alto */
+}
+  
+  /* Estilos para el texto dentro del cuadro de texto */
+  .cuadro-ovalado input {
+    width: 90%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;/* tamaño de texto */
+  }
+  
+  /* input */
+  input{
+    font-family: "Arial Narrow", sans-serif;
+    font-size: 18px;
+    margin: 5px;
+  }
+  /* imprimir */
+  .imprimir {
+    font-family: "Arial Narrow", sans-serif;
+    font-size: 15px;
+    background-color: white;
+    color: #212121;
+    border: 1px solid black;
+  }
+  
+  

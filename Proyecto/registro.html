@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="registro.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            <!--Fuente de texto-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <header>
+        </header>
+
+        <img class="img_fondo" src="imgr.webp">
+
+        <div class="menu" class="z-depth-2">
+            <img class="logo_ingreso" src="logo.png">
+            <h2 class="texto_titulo">Registro</h2>
+            <!--Registro de usuario-->
+            <a class="btn-floating btn-large cyan pulse"><i class="material-icons">edit</i></a>
+            <!--Nombre de usuario-->
+            <label class="texto2" for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre">
+            <!--Apellido de usuario-->
+            <label class="texto2" for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido">
+            <!--Cedula de usuario-->
+            <label class="texto2" for="cedula">Cedula</label>
+            <input type="number" id="cedula" name="cedula">
+            <!--Telefono de usuario-->
+            <label class="texto2" for="telefono">Telefono</label>
+            <input type="number" id="telefono" name="telefono">
+            <!--Email de usuario-->
+            <label class="texto2" for="email">Email</label>
+            <input type="email" id="email" name="email">
+            <!--Fecha de nacimiento de usuario-->
+            <label class="texto2" for="fecha_de_nacimiento">Fecha de nacimiento</label>
+            <input type="date" id="fecha_de_nacimiento" name="fecha_de_nacimiento">
+            <br><br>
+
+            <form action="menu.html" method="get">
+                <button class="enviar" type="submit" name="action">Enviar</button>
+             </form>
+
+
+        </div>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <footer></footer>
+    </body>
+</html>

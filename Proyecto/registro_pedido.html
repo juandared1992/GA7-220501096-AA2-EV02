@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="registro_pedido.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <header>
+        </header>
+
+        <img class="img_fondo" src="imgr.webp">
+
+        <div class="menu" class="z-depth-2">
+            <img class="logo_ingreso" src="logo.png">
+            <h2 class="texto_titulo">Registro pedido</h2>
+            <a class="btn-floating btn-large cyan pulse"><i class="material-icons">edit</i></a>
+            <!--Registro pedido-->
+            <!--Registro orden-->
+            <label class="texto2" for="registro_orden">Registro orden</label>
+            <input type="text" id="registro_orden" name="registro_orden">
+            <!--Pedido-->
+            <label class="texto2" for="Pedido">Pedido</label>
+            <input type="text" id="pedido" name="pedido">
+            <!--Cantidad-->
+            <label class="texto2" for="cantidad">Cantidad</label>
+            <input type="number" id="cantidad" name="cantidad">
+            <!--Adicional-->
+            <label class="texto2" for="adicional">Adicional</label>
+            <input type="text" id="adicional" name="adicional">
+            <!--Cliente-->
+            <label class="texto2" for="cliente">Cliente</label>
+            <input type="text" id="cliente" name="cliente">
+            <!--Nota-->
+            <label class="texto2" for="nota">Nota</label>
+            <input type="text" id="nota" name="nota">
+            <!--Fecha-->
+            <label class="texto2" for="fecha">Fecha</label>
+            <input type="date" id="fecha" name="fecha">
+            <br><br>
+
+            <form action="comanda.html" method="get">
+                <button class="enviar" type="submit" name="action">Enviar</button>
+              </form>
+
+        </div>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <footer></footer>
+    </body>
+</html>
